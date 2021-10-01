@@ -1,0 +1,1 @@
+nslookup <your IP> | grep name | cut -d ' ' -f3

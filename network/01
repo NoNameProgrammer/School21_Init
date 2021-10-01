@@ -1,0 +1,1 @@
+ifconfig -a | cut -f1 | awk -F: '{print $1;}' | uniq -u
